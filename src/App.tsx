@@ -18,7 +18,7 @@ import { TrackBookingPage } from './pages/TrackBookingPage';
 import { UserAccountPage } from './pages/UserAccountPage';
 import { LoginForm } from './components/auth/LoginForm';
 import { AdminDashboardPage } from './pages/AdminDashboardPage';
-import { CheckCircle2, Sparkles } from 'lucide-react';
+import { Sparkles } from 'lucide-react';
 
 const AppContent: React.FC = () => {
   const { activePage, toastMessage } = useBooking();
