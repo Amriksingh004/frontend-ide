@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useBooking } from '../context/BookingContext';
 import { CheckoutForm, CheckoutFormData } from '../components/booking/CheckoutForm';
 import { PaymentSection } from '../components/booking/PaymentSection';
-import { ArrowLeft, ShieldCheck, ShoppingBag, Calendar, MapPin } from 'lucide-react';
+import { ArrowLeft, ShieldCheck } from 'lucide-react';
 
 export const CheckoutPage: React.FC = () => {
   const { cart, getCartTotals, createBooking, navigateTo, user, selectedDates } = useBooking();
